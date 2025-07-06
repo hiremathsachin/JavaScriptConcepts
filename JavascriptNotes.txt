@@ -168,6 +168,20 @@ b.unshift(0); // adds first to an array
 
 console.log(b); //[0, 1, 2, 3, 4 ]
 
+b.indexOf(1);
+
+console.log('index of b.indexOf(1) '+b.indexOf(1)); //1
+
+b.includes(5)
+
+console.log('index of b.includes(1) '+b.includes(5)); // check given element present or not in an array
+
+
+// Loops in Arrays
+
+for (let i = 0; i < b.length; i++) {
+    console.log(i);  
+}
 
 
 
